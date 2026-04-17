@@ -1,4 +1,5 @@
 const http = require("http");
+const https = require("https");
 const { URL } = require("url");
 const { PORT } = require("./config/env");
 const { initializeDatabase } = require("./config/db");
@@ -43,6 +44,21 @@ async function startServer() {
     console.log(`MyHotel backend running at http://0.0.0.0:${PORT}`);
     console.log(`Database mode: ${storeInfo.mode}`);
     console.log(`Database name: ${storeInfo.databaseName}`);
+
+    // Keep-alive: ping self every 14 minutes so Render free tier never sleeps
+    const RENDER_URL = process.env.RENDER_EXTERNAL_URL;
+    if (RENDER_URL) {
+      const pingUrl = `${RENDER_URL}/api/health`;
+      console.log(`Keep-alive enabled: pinging ${pingUrl} every 14 minutes`);
+      setInterval(() => {
+        const client = pingUrl.startsWith("https") ? https : http;
+        client.get(pingUrl, (res) => {
+          console.log(`Keep-alive ping OK: ${res.statusCode}`);
+        }).on("error", (err) => {
+          console.warn(`Keep-alive ping failed: ${err.message}`);
+        });
+      }, 14 * 60 * 1000); // every 14 minutes
+    }
   });
 }
 
