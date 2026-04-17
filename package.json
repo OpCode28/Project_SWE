@@ -1,0 +1,13 @@
+{
+  "name": "myhotel-backend",
+  "version": "1.0.0",
+  "description": "MongoDB Atlas-ready backend API for the MyHotel booking project.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "mongodb": "^6.17.0"
+  }
+}

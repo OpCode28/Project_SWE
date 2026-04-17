@@ -1,0 +1,350 @@
+{
+  "hotels": [
+    {
+      "id": "hotel-1",
+      "name": "Trident Bhubaneswar",
+      "city": "Bhubaneswar",
+      "pricePerNight": 8500,
+      "rating": 4.8,
+      "roomsAvailable": 12
+    },
+    {
+      "id": "hotel-2",
+      "name": "Mayfair Lagoon",
+      "city": "Bhubaneswar",
+      "pricePerNight": 7200,
+      "rating": 4.7,
+      "roomsAvailable": 10
+    },
+    {
+      "id": "hotel-3",
+      "name": "The Crown Hotel",
+      "city": "Bhubaneswar",
+      "pricePerNight": 4800,
+      "rating": 4.5,
+      "roomsAvailable": 14
+    },
+    {
+      "id": "hotel-4",
+      "name": "Hotel Hindusthan International",
+      "city": "Bhubaneswar",
+      "pricePerNight": 3500,
+      "rating": 4.3,
+      "roomsAvailable": 9
+    },
+    {
+      "id": "hotel-5",
+      "name": "Swosti Premium",
+      "city": "Bhubaneswar",
+      "pricePerNight": 2500,
+      "rating": 4.1,
+      "roomsAvailable": 16
+    },
+    {
+      "id": "hotel-6",
+      "name": "Hotel Presidency",
+      "city": "Bhubaneswar",
+      "pricePerNight": 1800,
+      "rating": 3.9,
+      "roomsAvailable": 18
+    },
+    {
+      "id": "hotel-7",
+      "name": "Mayfair Heritage",
+      "city": "Puri",
+      "pricePerNight": 9500,
+      "rating": 4.9,
+      "roomsAvailable": 8
+    },
+    {
+      "id": "hotel-8",
+      "name": "Hans Coco Palms",
+      "city": "Puri",
+      "pricePerNight": 7800,
+      "rating": 4.7,
+      "roomsAvailable": 9
+    },
+    {
+      "id": "hotel-9",
+      "name": "Toshali Sands",
+      "city": "Puri",
+      "pricePerNight": 5200,
+      "rating": 4.4,
+      "roomsAvailable": 11
+    },
+    {
+      "id": "hotel-10",
+      "name": "Hotel Holiday Resort",
+      "city": "Puri",
+      "pricePerNight": 3800,
+      "rating": 4.2,
+      "roomsAvailable": 13
+    },
+    {
+      "id": "hotel-11",
+      "name": "Nilachal Ashok",
+      "city": "Puri",
+      "pricePerNight": 2200,
+      "rating": 4,
+      "roomsAvailable": 15
+    },
+    {
+      "id": "hotel-12",
+      "name": "Hotel Samudra",
+      "city": "Puri",
+      "pricePerNight": 1500,
+      "rating": 3.8,
+      "roomsAvailable": 17
+    },
+    {
+      "id": "hotel-13",
+      "name": "Vaishnavi Residency",
+      "city": "Sambalpur",
+      "pricePerNight": 7000,
+      "rating": 4.7,
+      "roomsAvailable": 11
+    },
+    {
+      "id": "hotel-14",
+      "name": "Dream Palace Hotel",
+      "city": "Sambalpur",
+      "pricePerNight": 6200,
+      "rating": 4.5,
+      "roomsAvailable": 12
+    },
+    {
+      "id": "hotel-15",
+      "name": "Hirakud View Hotel",
+      "city": "Sambalpur",
+      "pricePerNight": 4500,
+      "rating": 4.3,
+      "roomsAvailable": 10
+    },
+    {
+      "id": "hotel-16",
+      "name": "Sambalpuri Inn",
+      "city": "Sambalpur",
+      "pricePerNight": 3200,
+      "rating": 4.1,
+      "roomsAvailable": 15
+    },
+    {
+      "id": "hotel-17",
+      "name": "Hotel Surya",
+      "city": "Sambalpur",
+      "pricePerNight": 2000,
+      "rating": 3.9,
+      "roomsAvailable": 19
+    },
+    {
+      "id": "hotel-18",
+      "name": "Ruchi Hotel",
+      "city": "Sambalpur",
+      "pricePerNight": 1400,
+      "rating": 3.6,
+      "roomsAvailable": 20
+    },
+    {
+      "id": "hotel-19",
+      "name": "Aditya Grand Hotel",
+      "city": "Rourkela",
+      "pricePerNight": 8000,
+      "rating": 4.8,
+      "roomsAvailable": 7
+    },
+    {
+      "id": "hotel-20",
+      "name": "Steel City Inn",
+      "city": "Rourkela",
+      "pricePerNight": 6500,
+      "rating": 4.6,
+      "roomsAvailable": 10
+    },
+    {
+      "id": "hotel-21",
+      "name": "Hotel Prakash",
+      "city": "Rourkela",
+      "pricePerNight": 4200,
+      "rating": 4.3,
+      "roomsAvailable": 13
+    },
+    {
+      "id": "hotel-22",
+      "name": "Vedvyas Hotel",
+      "city": "Rourkela",
+      "pricePerNight": 3300,
+      "rating": 4,
+      "roomsAvailable": 15
+    },
+    {
+      "id": "hotel-23",
+      "name": "Hotel Rajmahal",
+      "city": "Rourkela",
+      "pricePerNight": 2100,
+      "rating": 3.8,
+      "roomsAvailable": 16
+    },
+    {
+      "id": "hotel-24",
+      "name": "Rourkela Budget Stay",
+      "city": "Rourkela",
+      "pricePerNight": 1200,
+      "rating": 3.5,
+      "roomsAvailable": 22
+    },
+    {
+      "id": "hotel-25",
+      "name": "Chandipur Beach Resort",
+      "city": "Balasore",
+      "pricePerNight": 7500,
+      "rating": 4.7,
+      "roomsAvailable": 8
+    },
+    {
+      "id": "hotel-26",
+      "name": "Grand Balasore Hotel",
+      "city": "Balasore",
+      "pricePerNight": 6000,
+      "rating": 4.5,
+      "roomsAvailable": 10
+    },
+    {
+      "id": "hotel-27",
+      "name": "Hotel Nilgiri",
+      "city": "Balasore",
+      "pricePerNight": 4000,
+      "rating": 4.2,
+      "roomsAvailable": 13
+    },
+    {
+      "id": "hotel-28",
+      "name": "Panchalingeswar View",
+      "city": "Balasore",
+      "pricePerNight": 3100,
+      "rating": 4,
+      "roomsAvailable": 14
+    },
+    {
+      "id": "hotel-29",
+      "name": "Hotel Swarnarekha",
+      "city": "Balasore",
+      "pricePerNight": 2000,
+      "rating": 3.8,
+      "roomsAvailable": 18
+    },
+    {
+      "id": "hotel-30",
+      "name": "Balasore Budget Lodge",
+      "city": "Balasore",
+      "pricePerNight": 1300,
+      "rating": 3.5,
+      "roomsAvailable": 20
+    }
+  ],
+  "bookings": [
+    {
+      "id": "MHMO38GC82",
+      "status": "Confirmed",
+      "paymentStatus": "Paid",
+      "hotelId": "hotel-20",
+      "hotelName": "Steel City Inn",
+      "city": "Rourkela",
+      "guestName": "Biswa",
+      "email": "biswa@gmail.com",
+      "phone": "9938174108",
+      "roomType": "Single Room",
+      "guests": "2 Guests",
+      "checkin": "2026-04-17",
+      "checkout": "2026-04-24",
+      "nights": 7,
+      "pricePerNight": 6500,
+      "taxes": 5460,
+      "total": 50960,
+      "createdAt": "2026-04-17T18:19:43.970Z"
+    },
+    {
+      "id": "MHMO3AQKKZ",
+      "status": "Confirmed",
+      "paymentStatus": "Paid",
+      "hotelId": "hotel-15",
+      "hotelName": "Hirakud View Hotel",
+      "city": "Sambalpur",
+      "guestName": "Test User",
+      "email": "test@example.com",
+      "phone": "9983282776",
+      "roomType": "Single Room",
+      "guests": "2 Guests",
+      "checkin": "2026-04-17",
+      "checkout": "2026-04-18",
+      "nights": 1,
+      "pricePerNight": 4500,
+      "taxes": 540,
+      "total": 5040,
+      "createdAt": "2026-04-17T19:23:40.595Z"
+    },
+    {
+      "id": "MHMO3D95HM",
+      "status": "Pending Payment",
+      "paymentStatus": "Unpaid",
+      "hotelId": "hotel-12",
+      "hotelName": "Hotel Samudra",
+      "city": "Puri",
+      "guestName": "Test User",
+      "email": "test@example.com",
+      "phone": "9983282776",
+      "roomType": "Single Room",
+      "guests": "1 Guest",
+      "checkin": "2026-04-23",
+      "checkout": "2026-05-01",
+      "nights": 8,
+      "pricePerNight": 1500,
+      "taxes": 1440,
+      "total": 13440,
+      "createdAt": "2026-04-17T20:34:06.730Z"
+    }
+  ],
+  "payments": [
+    {
+      "id": "PAYMO38HJPP",
+      "bookingId": "MHMO38GC82",
+      "method": "UPI",
+      "reference": "Hetxuv",
+      "amount": 50960,
+      "paidAt": "2026-04-17T18:20:40.333Z"
+    },
+    {
+      "id": "PAYMO3AQY27",
+      "bookingId": "MHMO3AQKKZ",
+      "method": "UPI",
+      "reference": ",hy6rers",
+      "amount": 5040,
+      "paidAt": "2026-04-17T19:23:58.063Z"
+    }
+  ],
+  "users": [
+    {
+      "id": "USRMO38BQF0",
+      "name": "Biswa",
+      "email": "biswa@gmail.com",
+      "phone": "9938174108",
+      "passwordHash": "58737d4f48bb0b6c2efc93e2dea69d83:f129f89a86b68858f2886b8b7fd40eeedd5d78dbd4405926c288c714054b1bfa77fb3775646dc69e31b9ce9075178ed19b12a0df2c3b7cad36fbb48a71be997b",
+      "createdAt": "2026-04-17T18:16:09.182Z"
+    },
+    {
+      "id": "USRMO38V1IX",
+      "name": "Test User",
+      "email": "test@test.com",
+      "phone": "9999999999",
+      "passwordHash": "59988e618f1750b5e6c21aef061475dd:f227516a27fcf35e565af7d9c8b3d5c1f20e23c941061d9869487bfd48f89b97d666e2bd2fb946c61713085f37b745a00a82555c506c1ee0371332c7d8d0ec18",
+      "createdAt": "2026-04-17T18:31:10.090Z"
+    },
+    {
+      "id": "USRMO3APRQ7",
+      "name": "Test User",
+      "email": "test@example.com",
+      "phone": "9983282776",
+      "passwordHash": "9d657eae4b26be9665da0bd45df8e883:d1c9b97330ab3e85de20c4dc008833d737c45b3f79b09ae6380a8364f8cb50f69417a274ff1c635db31cb82efb477ba759c6b0483272c8f4fb076cc440f1ce0a",
+      "createdAt": "2026-04-17T19:23:03.323Z"
+    }
+  ]
+}
